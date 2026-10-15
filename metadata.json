@@ -1,0 +1,6 @@
+{
+  "name": "VocalSync",
+  "description": "VocalLyric Studio - Sing with lyrics, record raw vocal takes, real-time dBFS metering, teleprompter, YIN pitch analyzer, and audio vault.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

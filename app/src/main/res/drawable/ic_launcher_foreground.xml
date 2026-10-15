@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group>
+        <!-- Center Studio Microphone capsule -->
+        <path
+            android:pathData="M54,30 C49,30 45,34 45,39 L45,53 C45,58 49,62 54,62 C59,62 63,58 63,53 L63,39 C63,34 59,30 54,30 Z">
+            <aapt:attr name="android:fillColor">
+                <gradient
+                    android:startX="45"
+                    android:startY="30"
+                    android:endX="63"
+                    android:endY="62"
+                    android:type="linear">
+                    <item android:offset="0.0" android:color="#00E5FF" />
+                    <item android:offset="1.0" android:color="#8A2BE2" />
+                </gradient>
+            </aapt:attr>
+        </path>
+
+        <!-- Mic grill lines -->
+        <path
+            android:pathData="M47,40 L61,40 M46,45 L62,45 M47,50 L61,50"
+            android:strokeWidth="1.5"
+            android:strokeColor="#FFFFFF"
+            android:strokeLineCap="round" />
+
+        <!-- Microphone shockmount / U-cradle -->
+        <path
+            android:pathData="M39,48 C39,60 46,69 54,69 C62,69 69,60 69,48"
+            android:strokeWidth="3.2"
+            android:strokeColor="#00E5FF"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000" />
+
+        <!-- Mic stem and base -->
+        <path
+            android:pathData="M54,69 L54,77 M46,77 L62,77"
+            android:strokeWidth="3.2"
+            android:strokeColor="#00E5FF"
+            android:strokeLineCap="round" />
+
+        <!-- Sound waves Left -->
+        <path
+            android:pathData="M33,42 C30,47 30,55 33,60"
+            android:strokeWidth="2.8"
+            android:strokeColor="#8A2BE2"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000" />
+        <path
+            android:pathData="M27,37 C23,45 23,57 27,65"
+            android:strokeWidth="2.5"
+            android:strokeColor="#00E5FF"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000" />
+
+        <!-- Sound waves Right -->
+        <path
+            android:pathData="M75,42 C78,47 78,55 75,60"
+            android:strokeWidth="2.8"
+            android:strokeColor="#8A2BE2"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000" />
+        <path
+            android:pathData="M81,37 C85,45 85,57 81,65"
+            android:strokeWidth="2.5"
+            android:strokeColor="#00E5FF"
+            android:strokeLineCap="round"
+            android:fillColor="#00000000" />
+    </group>
+</vector>
